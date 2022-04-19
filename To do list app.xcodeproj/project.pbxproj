@@ -13,6 +13,8 @@
 		2DD0866B280E9FF2006377BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD08669280E9FF2006377BA /* Main.storyboard */; };
 		2DD0866D280E9FF3006377BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0866C280E9FF3006377BA /* Assets.xcassets */; };
 		2DD08670280E9FF3006377BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0866E280E9FF3006377BA /* LaunchScreen.storyboard */; };
+		2DD08679280EA571006377BA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD08678280EA571006377BA /* EntryViewController.swift */; };
+		2DD0867C280EA5AA006377BA /* TaskInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0867B280EA5AA006377BA /* TaskInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2DD0866C280E9FF3006377BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD0866F280E9FF3006377BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD08671280E9FF3006377BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD08678280EA571006377BA /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		2DD0867B280EA5AA006377BA /* TaskInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		2DD08662280E9FF2006377BA /* To do list app */ = {
 			isa = PBXGroup;
 			children = (
+				2DD0867A280EA587006377BA /* TasInfo */,
+				2DD08677280EA53E006377BA /* EntryAdd */,
 				2DD08663280E9FF2006377BA /* AppDelegate.swift */,
 				2DD08665280E9FF2006377BA /* SceneDelegate.swift */,
 				2DD08667280E9FF2006377BA /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				2DD08671280E9FF3006377BA /* Info.plist */,
 			);
 			path = "To do list app";
+			sourceTree = "<group>";
+		};
+		2DD08677280EA53E006377BA /* EntryAdd */ = {
+			isa = PBXGroup;
+			children = (
+				2DD08678280EA571006377BA /* EntryViewController.swift */,
+			);
+			path = EntryAdd;
+			sourceTree = "<group>";
+		};
+		2DD0867A280EA587006377BA /* TasInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0867B280EA5AA006377BA /* TaskInfoViewController.swift */,
+			);
+			path = TasInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD0867C280EA5AA006377BA /* TaskInfoViewController.swift in Sources */,
 				2DD08668280E9FF2006377BA /* ViewController.swift in Sources */,
+				2DD08679280EA571006377BA /* EntryViewController.swift in Sources */,
 				2DD08664280E9FF2006377BA /* AppDelegate.swift in Sources */,
 				2DD08666280E9FF2006377BA /* SceneDelegate.swift in Sources */,
 			);
